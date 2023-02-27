@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "case",
+    "children" : [ {
+      "name" : "test_member_controller",
+      "children" : [ {
+        "name" : "test_auth_code",
+        "children" : [ {
+          "name" : "test_get_auth_code[case1_获取验证码成功]",
+          "uid" : "2346c4747bc72dae",
+          "parentUid" : "5dbb0271729f5576708239595de95049",
+          "status" : "passed",
+          "time" : {
+            "start" : 1639116744962,
+            "stop" : 1639116745010,
+            "duration" : 48
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_name': 'case1_获取验证码成功', 'body': {'telephone': '18821768019'}, 'expect': {'message': '获取验证码成功', 'code': 200}}" ]
+        } ],
+        "uid" : "5dbb0271729f5576708239595de95049"
+      }, {
+        "name" : "test_login",
+        "children" : [ {
+          "name" : "test_admin_login[case1_正常登录]",
+          "uid" : "eaf1bb87e96d422b",
+          "parentUid" : "31ca0d9ab9402ea07803b16999f08046",
+          "status" : "passed",
+          "time" : {
+            "start" : 1639116745014,
+            "stop" : 1639116745386,
+            "duration" : 372
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_name': 'case1_正常登录', 'body': {'username': 'admin', 'password': '123456'}, 'expect': {'message': '操作成功', 'code': 200}}" ]
+        } ],
+        "uid" : "31ca0d9ab9402ea07803b16999f08046"
+      }, {
+        "name" : "test_register",
+        "children" : [ {
+          "name" : "正常注册999",
+          "uid" : "251047ac874d2e65",
+          "parentUid" : "a684f2550d802bf87307c74991f9c2cd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1639116745469,
+            "stop" : 1639116745825,
+            "duration" : 356
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_name': 'case1_注册成功', 'body': {'authCode': '898630', 'password': '123456', 'telephone': '18821768018', 'username': 'admin'}, 'expect': {'message': '注册成功', 'code': 200}}" ]
+        } ],
+        "uid" : "a684f2550d802bf87307c74991f9c2cd"
+      } ],
+      "uid" : "353cf9675b8e462ff13858c81c8b8252"
+    }, {
+      "name" : "test_receiving.test_add_address",
+      "children" : [ {
+        "name" : "添加收货地址",
+        "uid" : "eace343535e8b8b8",
+        "parentUid" : "eb5257a8c66fbd1317b1523f6de10221",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639116745830,
+          "stop" : 1639116746207,
+          "duration" : 377
+        },
+        "flaky" : false,
+        "parameters" : [ "{'case_name': 'case1_正确前台添加收货地址', 'body': {'city': '杭州', 'defaultStatus': 0, 'detailAddress': '道长成仙之道', 'id': 0, 'memberId': 0, 'name': '道长', 'phoneNumber': 18821768017, 'postCode': '713500', 'province': '中江省', 'region': '长藤市'}, 'expect': {'except': '操作成功', 'code': 200}}" ]
+      } ],
+      "uid" : "test_receiving.test_add_address"
+    } ],
+    "uid" : "3a5ff917f72cbd03b2a2ff2549394ef0"
+  } ]
+}

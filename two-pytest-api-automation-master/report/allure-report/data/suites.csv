@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","case.test_member_controller.test_auth_code.TestGetAuthCode#test_get_auth_code","48",""
+"passed","case.test_member_controller.test_login.Test_DengLu#test_admin_login","372",""
+"passed","case.test_member_controller.test_register.Test_DengLu#test_register","356","注册"
+"passed","case.test_receiving.test_add_address.Test_DengLu#test_admin_login","377",""

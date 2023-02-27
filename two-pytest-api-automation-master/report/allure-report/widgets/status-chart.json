@@ -1,0 +1,41 @@
+[ {
+  "uid" : "2346c4747bc72dae",
+  "name" : "test_get_auth_code[case1_获取验证码成功]",
+  "time" : {
+    "start" : 1639116744962,
+    "stop" : 1639116745010,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eaf1bb87e96d422b",
+  "name" : "test_admin_login[case1_正常登录]",
+  "time" : {
+    "start" : 1639116745014,
+    "stop" : 1639116745386,
+    "duration" : 372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "251047ac874d2e65",
+  "name" : "正常注册999",
+  "time" : {
+    "start" : 1639116745469,
+    "stop" : 1639116745825,
+    "duration" : 356
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eace343535e8b8b8",
+  "name" : "添加收货地址",
+  "time" : {
+    "start" : 1639116745830,
+    "stop" : 1639116746207,
+    "duration" : 377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

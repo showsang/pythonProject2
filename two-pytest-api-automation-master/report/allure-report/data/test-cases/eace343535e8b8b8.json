@@ -1,0 +1,464 @@
+{
+  "uid" : "eace343535e8b8b8",
+  "name" : "添加收货地址",
+  "fullName" : "case.test_receiving.test_add_address.Test_DengLu#test_admin_login",
+  "historyId" : "4e8a8a1ecfa1d7163fc98d4c2a77f5ed",
+  "time" : {
+    "start" : 1639116745830,
+    "stop" : 1639116746207,
+    "duration" : 377
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "receiving_l",
+    "time" : {
+      "start" : 1639116745829,
+      "stop" : 1639116745830,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "del_address",
+    "time" : {
+      "start" : 1639116745830,
+      "stop" : 1639116745830,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "azs_login",
+    "time" : {
+      "start" : 1639116744600,
+      "stop" : 1639116744962,
+      "duration" : 362
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "响应日志",
+      "time" : {
+        "start" : 1639116744960,
+        "stop" : 1639116744960,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status_code",
+        "value" : "200"
+      }, {
+        "name" : "text",
+        "value" : "{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJzY29wZSI6WyJhbGwiXSwiaWQiOjI0MzQ0MzAsImV4cCI6MTYzOTIwMzE0NSwiYXV0aG9yaXRpZXMiOlsi5YmN5Y-w5Lya5ZGYIl0sImp0aSI6IjA1NDYxOTcwLTVkNDEtNDA5NS04NGNlLTAzOTBmOTY1Mjc5NyIsImNsaWVudF9pZCI6InBvcnRhbC1hcHAifQ.Jb55XuGfmQ-6B9XXxHyL5ZsIbNwDejcBy3G6EHccji_tbXlgAg_hx_qa3cXiehAFj0REBu74pdouaBU1v8tiwZfAiCH2ayFrMTSkfcdlHLa5LPn75Qqq3wCSEuX92-ESSzoTFt3p7MvOcGDNm_gjcNytgY6GqSvgoCZDm9kMiEs', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbjEiLCJzY29wZSI6WyJhbGwiXSwiYXRpIjoiMDU0NjE5NzAtNWQ0MS00MDk1LTg0Y2UtMDM5MGY5NjUyNzk3IiwiaWQiOjI0MzQ0MzAsImV4cCI6MTYzOTcyMTU0NSwiYXV0aG9yaXRpZXMiOlsi5YmN5Y-w5Lya5ZGYIl0sImp0aSI6ImI2MmFiOTM3LTk3NTItNDI1ZS1hZGI2LWI2OTE2MTRmMGVjZCIsImNsaWVudF9pZCI6InBvcnRhbC1hcHAifQ.PvaEosxwPKl2SyIWkrTLH6jzqZmRE9-omP35Kzizf5nhN9zpLha38EsrkMw1siljFJ4YAcGhrQQ1wSHJ3P4dx4fMeyBd_a_fRwSaiMn-gsVeGAsoeUArQ3rv-HmhfmdXEoBz8SMKCmOhTJkKg8S-tXup3ThskL84CajCXV1Imq4', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "请求日志",
+      "time" : {
+        "start" : 1639116744961,
+        "stop" : 1639116744961,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://121.37.169.128:8201/mall-member/sso/login?platform=test&time=1639116744600&username=admin1&password=123456'"
+      }, {
+        "name" : "method",
+        "value" : "'post'"
+      }, {
+        "name" : "body",
+        "value" : "{}"
+      }, {
+        "name" : "headers",
+        "value" : "{'Content-Type': 'application/json'}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1639116744184,
+      "stop" : 1639116744243,
+      "duration" : 59
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "als_login",
+    "time" : {
+      "start" : 1639116744243,
+      "stop" : 1639116744600,
+      "duration" : 357
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "响应日志",
+      "time" : {
+        "start" : 1639116744599,
+        "stop" : 1639116744599,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status_code",
+        "value" : "200"
+      }, {
+        "name" : "text",
+        "value" : "{'code': 200, 'message': '操作成功', 'data': {'token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjM5MjAzMTQ0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNmYzNWM3NDUtNWY5NS00MjU1LTliODctYmZhMTE1OWQ3MGQ5IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.MUJtzpMv4gh7bkZOXVCrHFZUXfg26qD5qlkWAyBoyE5TsZdnUsYl8tbRnP27oXe5AmN64K95P5WFIi6xMT52vP-YDu9OGv5bclyNnECKsZtZvbSidtVddaLFEmlF4-VEywggUZ-b4ReI6iCWAL3B7K7vSnJQm1w7ANUSJdZEDlw', 'refreshToken': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI2ZjM1Yzc0NS01Zjk1LTQyNTUtOWI4Ny1iZmExMTU5ZDcwZDkiLCJpZCI6MjQzNDQyNywiZXhwIjoxNjM5NzIxNTQ0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiODQ0MjdmZDAtODZhNi00MGY2LWE4YzAtZDY0OGI4Nzc5NjdjIiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.I53H1IO2JxkqKCo0li2CxmuVumufb8J19zCDYRWuwDTjLncoaEG4WAK5hV8z9I533i_FX5yPaJK7rP8dTNqiHJ2Q-G6slzwPGzb9FyykrxA_WGenkTdfKTtSPcrHO8ShavfxUIHVfMCsr6zi5kf_7_g0RdMsT4XaJLPMv0E-c1U', 'tokenHead': 'Bearer ', 'expiresIn': 86399}}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "请求日志",
+      "time" : {
+        "start" : 1639116744599,
+        "stop" : 1639116744599,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://121.37.169.128:8201/mall-member/sso/login?platform=test&time=1639116744243&username=admin&password=123456'"
+      }, {
+        "name" : "method",
+        "value" : "'post'"
+      }, {
+        "name" : "body",
+        "value" : "{}"
+      }, {
+        "name" : "headers",
+        "value" : "{'Content-Type': 'application/json'}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "zhangsan_info",
+    "time" : {
+      "start" : 1639116744600,
+      "stop" : 1639116744600,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "lisi_info",
+    "time" : {
+      "start" : 1639116744243,
+      "stop" : 1639116744243,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加收货地址-显示所有收货地址-删除收货地址",
+      "time" : {
+        "start" : 1639116745830,
+        "stop" : 1639116746207,
+        "duration" : 377
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "响应日志",
+        "time" : {
+          "start" : 1639116746207,
+          "stop" : 1639116746207,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "status_code",
+          "value" : "200"
+        }, {
+          "name" : "text",
+          "value" : "{'code': 200, 'message': '操作成功', 'data': 1}"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "请求日志",
+        "time" : {
+          "start" : 1639116746207,
+          "stop" : 1639116746207,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "'http://121.37.169.128:8201/mall-member/member/address/add?platform=test&time=1639116745830'"
+        }, {
+          "name" : "method",
+          "value" : "'post'"
+        }, {
+          "name" : "body",
+          "value" : "{'city': '杭州', 'defaultStatus': 0, 'detailAddress': '道长成仙之道', 'id': 0, 'memberId': 0, 'name': '道长', 'phoneNumber': 18821768017, 'postCode': '713500', 'province': '中江省', 'region': '长藤市'}"
+        }, {
+          "name" : "headers",
+          "value" : "{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjM5MjAzMTQ0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNmYzNWM3NDUtNWY5NS00MjU1LTliODctYmZhMTE1OWQ3MGQ5IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.MUJtzpMv4gh7bkZOXVCrHFZUXfg26qD5qlkWAyBoyE5TsZdnUsYl8tbRnP27oXe5AmN64K95P5WFIi6xMT52vP-YDu9OGv5bclyNnECKsZtZvbSidtVddaLFEmlF4-VEywggUZ-b4ReI6iCWAL3B7K7vSnJQm1w7ANUSJdZEDlw'}"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "args",
+        "value" : "(<case.test_receiving.test_add_address.Test_DengLu object at 0x000001A4AE35ED68>,)"
+      }, {
+        "name" : "case_data",
+        "value" : "{'case_name': 'case1_正确前台添加收货地址', 'body': {'city': '杭州', 'defaultStatus': 0, 'detailAddress': '道长成仙之道', 'id': 0, 'memberId': 0, 'name': '道长', 'phoneNumber': 18821768017, 'postCode': '713500', 'province': '中江省', 'region': '长藤市'}, 'expect': {'except': '操作成功', 'code': 200}}"
+      }, {
+        "name" : "receiving_l",
+        "value" : "<api.admin.receiving_api.ReceivingApi object at 0x000001A4AE682DA0>"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "61c4f6d0a5343848",
+      "name" : "log",
+      "source" : "61c4f6d0a5343848.txt",
+      "type" : "text/plain",
+      "size" : 267
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "del_address::0",
+    "time" : {
+      "start" : 1639116746208,
+      "stop" : 1639116746601,
+      "duration" : 393
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "响应日志",
+      "time" : {
+        "start" : 1639116746252,
+        "stop" : 1639116746253,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status_code",
+        "value" : "200"
+      }, {
+        "name" : "text",
+        "value" : "{'code': 200, 'message': '操作成功', 'data': [{'id': 2503552, 'memberId': 2434427, 'name': '道长', 'phoneNumber': '18821768017', 'defaultStatus': 0, 'postCode': '713500', 'province': '中江省', 'city': '杭州', 'region': '长藤市', 'detailAddress': '道长成仙之道'}]}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "请求日志",
+      "time" : {
+        "start" : 1639116746253,
+        "stop" : 1639116746253,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://121.37.169.128:8201/mall-member/member/address/list?platform=test&time=1639116746209'"
+      }, {
+        "name" : "method",
+        "value" : "'get'"
+      }, {
+        "name" : "body",
+        "value" : "{}"
+      }, {
+        "name" : "headers",
+        "value" : "{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjM5MjAzMTQ0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNmYzNWM3NDUtNWY5NS00MjU1LTliODctYmZhMTE1OWQ3MGQ5IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.MUJtzpMv4gh7bkZOXVCrHFZUXfg26qD5qlkWAyBoyE5TsZdnUsYl8tbRnP27oXe5AmN64K95P5WFIi6xMT52vP-YDu9OGv5bclyNnECKsZtZvbSidtVddaLFEmlF4-VEywggUZ-b4ReI6iCWAL3B7K7vSnJQm1w7ANUSJdZEDlw'}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "响应日志",
+      "time" : {
+        "start" : 1639116746600,
+        "stop" : 1639116746600,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status_code",
+        "value" : "200"
+      }, {
+        "name" : "text",
+        "value" : "{'code': 200, 'message': '操作成功', 'data': 1}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "请求日志",
+      "time" : {
+        "start" : 1639116746601,
+        "stop" : 1639116746601,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://121.37.169.128:8201/mall-member/member/address/delete/2503552?platform=test&time=1639116746253'"
+      }, {
+        "name" : "method",
+        "value" : "'post'"
+      }, {
+        "name" : "body",
+        "value" : "{}"
+      }, {
+        "name" : "headers",
+        "value" : "{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbImFsbCJdLCJpZCI6MjQzNDQyNywiZXhwIjoxNjM5MjAzMTQ0LCJhdXRob3JpdGllcyI6WyLliY3lj7DkvJrlkZgiXSwianRpIjoiNmYzNWM3NDUtNWY5NS00MjU1LTliODctYmZhMTE1OWQ3MGQ5IiwiY2xpZW50X2lkIjoicG9ydGFsLWFwcCJ9.MUJtzpMv4gh7bkZOXVCrHFZUXfg26qD5qlkWAyBoyE5TsZdnUsYl8tbRnP27oXe5AmN64K95P5WFIi6xMT52vP-YDu9OGv5bclyNnECKsZtZvbSidtVddaLFEmlF4-VEywggUZ-b4ReI6iCWAL3B7K7vSnJQm1w7ANUSJdZEDlw'}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试receiving模块"
+  }, {
+    "name" : "story",
+    "value" : "添加收货地址功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.test_receiving"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_address"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_DengLu"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-9964GMTD"
+  }, {
+    "name" : "thread",
+    "value" : "14216-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_receiving.test_add_address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "{'case_name': 'case1_正确前台添加收货地址', 'body': {'city': '杭州', 'defaultStatus': 0, 'detailAddress': '道长成仙之道', 'id': 0, 'memberId': 0, 'name': '道长', 'phoneNumber': 18821768017, 'postCode': '713500', 'province': '中江省', 'region': '长藤市'}, 'expect': {'except': '操作成功', 'code': 200}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eace343535e8b8b8.json",
+  "parameterValues" : [ "{'case_name': 'case1_正确前台添加收货地址', 'body': {'city': '杭州', 'defaultStatus': 0, 'detailAddress': '道长成仙之道', 'id': 0, 'memberId': 0, 'name': '道长', 'phoneNumber': 18821768017, 'postCode': '713500', 'province': '中江省', 'region': '长藤市'}, 'expect': {'except': '操作成功', 'code': 200}}" ]
+}

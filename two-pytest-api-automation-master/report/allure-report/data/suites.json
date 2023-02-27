@@ -1,0 +1,93 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "case.test_member_controller",
+    "children" : [ {
+      "name" : "test_auth_code",
+      "children" : [ {
+        "name" : "TestGetAuthCode",
+        "children" : [ {
+          "name" : "test_get_auth_code[case1_获取验证码成功]",
+          "uid" : "2346c4747bc72dae",
+          "parentUid" : "dc2cefb68377e291a51711dd10f9444e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1639116744962,
+            "stop" : 1639116745010,
+            "duration" : 48
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_name': 'case1_获取验证码成功', 'body': {'telephone': '18821768019'}, 'expect': {'message': '获取验证码成功', 'code': 200}}" ]
+        } ],
+        "uid" : "dc2cefb68377e291a51711dd10f9444e"
+      } ],
+      "uid" : "0e2a90d3178b415fe881e55ede934fde"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "Test_DengLu",
+        "children" : [ {
+          "name" : "test_admin_login[case1_正常登录]",
+          "uid" : "eaf1bb87e96d422b",
+          "parentUid" : "f423e9e97ff84f695c0433969f47263b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1639116745014,
+            "stop" : 1639116745386,
+            "duration" : 372
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_name': 'case1_正常登录', 'body': {'username': 'admin', 'password': '123456'}, 'expect': {'message': '操作成功', 'code': 200}}" ]
+        } ],
+        "uid" : "f423e9e97ff84f695c0433969f47263b"
+      } ],
+      "uid" : "57ca1b48d87cb1d7139eea09ce1bf17a"
+    }, {
+      "name" : "test_register",
+      "children" : [ {
+        "name" : "Test_DengLu",
+        "children" : [ {
+          "name" : "正常注册999",
+          "uid" : "251047ac874d2e65",
+          "parentUid" : "80452484f15623b8ab9d60a84ef854d0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1639116745469,
+            "stop" : 1639116745825,
+            "duration" : 356
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_name': 'case1_注册成功', 'body': {'authCode': '898630', 'password': '123456', 'telephone': '18821768018', 'username': 'admin'}, 'expect': {'message': '注册成功', 'code': 200}}" ]
+        } ],
+        "uid" : "80452484f15623b8ab9d60a84ef854d0"
+      } ],
+      "uid" : "2e877b53f153c5527a214861e2e5e931"
+    } ],
+    "uid" : "fa01608f468b520934ee9dd990b7dfab"
+  }, {
+    "name" : "case.test_receiving",
+    "children" : [ {
+      "name" : "test_add_address",
+      "children" : [ {
+        "name" : "Test_DengLu",
+        "children" : [ {
+          "name" : "添加收货地址",
+          "uid" : "eace343535e8b8b8",
+          "parentUid" : "36d94d9330b2aceb25b56b804dc93c91",
+          "status" : "passed",
+          "time" : {
+            "start" : 1639116745830,
+            "stop" : 1639116746207,
+            "duration" : 377
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_name': 'case1_正确前台添加收货地址', 'body': {'city': '杭州', 'defaultStatus': 0, 'detailAddress': '道长成仙之道', 'id': 0, 'memberId': 0, 'name': '道长', 'phoneNumber': 18821768017, 'postCode': '713500', 'province': '中江省', 'region': '长藤市'}, 'expect': {'except': '操作成功', 'code': 200}}" ]
+        } ],
+        "uid" : "36d94d9330b2aceb25b56b804dc93c91"
+      } ],
+      "uid" : "f4eaffc0e65d2e58746b2144315f13cd"
+    } ],
+    "uid" : "70c0888f21cb8440fc9bea631066f041"
+  } ]
+}
